@@ -1,0 +1,27 @@
+- name: Virtualization Layer
+  description: Offers a single entry point to application developers, hiding the internal details and decentralized complexity of all other IoT components
+  image: img/services/VirtualizationLayer80px.png
+
+- name: Resource Catalogue
+  description: Discovers and keeps track of available sensors and devices in the network. It provides a set of RESTful interfaces to select, actuate on and retrieve data from these IoT resources.
+  image: img/services/ResourceCatalogue80px.png
+
+- name: Storage Manager
+  description: The Storage Manager provides flexible integration of multiple storage solutions for IoT time series data and RESTful access using the OGCSensorThings API open standard.
+  image: img/services/StorageManager80px.png
+
+- name: Data Fusion Manager
+  description: The Data Fusion Manager is a Smart City agent for Stream Mining. With it, we can discover context in real-time in the city with millions of devices, e.g. waste bins are full, leakages in some areas. Using the learnt models, it can discover or forecast more complex situations. 
+  image: img/services/DataFusionManager80px.png
+
+- name: SCRAL
+  description: The Smart City Resource Adaptation Layer (SCRAL) provides a REST-based, uniform and transparent access to physical devices, capillary networks, systems and services for monitoring (and actuation) in a Smart City context.
+  image: img/services/SCRAL80px.png
+
+- name: LinkSmart GlobalConnect
+  description: LinkSmart GlobalConnect establishes an overlay network to interconnect local IoT networks and enables the discovery and sharing of IoT services and resources across these local IoT networks.
+  image: img/services/LinkSmartGlobalConnect80px.png
+
+- name: Security and Policy Framework
+  description: The Security and Policy Framework allows to secure IoT services. It implements identity management with OpenID Connect 1.0 and allows to define fine-grained access control for IoT services, providing an XACML Policy Decision Point.
+  image: img/services/SecurityFramework80px.png

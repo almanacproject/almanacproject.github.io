@@ -1,0 +1,26 @@
+<section id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Available Enablers</h2>
+				<hr class="primary">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			{% for component in site.data.components %}
+			<div class="col-lg-3 col-md-6 text-center">
+				<div class="service-box">
+					<img src="{{component.image}}" class="wow bounceIn" data-wow-delay=".1s"/>
+					<h3>{{component.name}}</h3>
+					<small class="text-muted">{{component.description}}</small>
+				</div>
+			</div>
+			{% if forloop.index == 3 %}
+			<!-- <div class="clearfix"></div>-->
+			{% endif %} {% endfor %}
+			
+		</div>
+	</div>
+</section>
