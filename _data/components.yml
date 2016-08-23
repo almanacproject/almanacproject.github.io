@@ -25,3 +25,7 @@
 - name: Security and Policy Framework
   description: The Security and Policy Framework allows to secure IoT services. It implements identity management with OpenID Connect 1.0 and allows to define fine-grained access control for IoT services, providing an XACML Policy Decision Point.
   image: img/services/SecurityFramework80px.png
+
+- name: Metadata Framework
+  description: The Metadata Framework eases the use of semantic data in IoT applications. It allows management, querying, and processing of highly structured graph-based RDF domain models and metadata.
+  image: img/services/MetadataFramework80px.png
